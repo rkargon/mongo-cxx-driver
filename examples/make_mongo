@@ -1,0 +1,1 @@
+c++ --std=c++11 $1.cpp -o $1 $(PKG_CONFIG_PATH=/usr/local/lib/lib/pkgconfig/ pkg-config --cflags --libs libmongocxx) -L/usr/local/lib/lib/  -lmongocxx._noabi -Wl,-rpath,/usr/local/lib/lib
